@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+	background-color: seashell;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: auto;
+	height: auto;
+}
+
+.header {
+	margin: auto;
+	width: 80%;
+	border: 3px solid green;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	margin: auto;
+	font-size: 16px;
+}
+
+.container {
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	border: 3px solid green;
+	padding: 10px;
+	text-align: center;
+	height: fit-content;
+}
+
+.newentry {
+	width: 50%;
+	margin: auto;
+	margin-top: 10px;
+	border: 3px solid green;
+}
+
+.recententries {
+	width: 50%;
+	margin: auto;
+	margin-top: 10px;
+	border: 3px solid green;
+	height: auto;
+
+}
+
+.logorreg {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	border: 3px solid green;
+	display: flex;
+	justify-content: center;
+}
+
+.log {
+		margin: auto;
+	margin-top: 10px;
+	border: 3px solid green;
+	margin-bottom: 10px;
+}
+
+.reg {
+		margin: auto;
+	margin-top: 10px;
+	border: 3px solid green;
+	margin-bottom: 10px;
+}
+
+.footer {
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	border: 3px solid green;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.divSquare {
+	width: 48%;
+	height: auto;
+	margin: 5px;
+	border: 1px solid green;
+	float: left;
+	
+}
+
+textarea {
+  resize: none;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+
+}
+
+.explained {
+		margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	border: 3px solid green;
+	padding: 10px;
+	display: block;
+	text-align: center;
+}
+
+.editdelete {
+	display: flex;
+	justify-content: center;
+	border: 1px solid green;
+	width: auto;
+	margin-top: 10px;
+	padding-top: 10px;
+
+}
+
+.datentime {
+	border: 1px solid green;
+	font-size: 12px;
+}
